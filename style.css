@@ -41,10 +41,15 @@
     border: none;
 }
 
+.formSwitcher button:hover {
+    text-decoration-line: underline;
+}
+
 /*Form*/
-.form form {
+form {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .form form div {
@@ -77,11 +82,10 @@
     font-family: 'Permanent Marker', cursive;
 }
 
-
 .form .login-form {
-    display: contents;
+    display: block;
 }
 
 .form .signup-form {
-    display: block;
+    display: none;
 }
