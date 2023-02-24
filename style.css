@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Form Container*/
+.container {
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Login/Signup Header*/
+.container h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+
+/*form styling*/
+.form form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+}
+
+.form form div {
+    padding-bottom: 15px;
+}
+
+.form .login-form {
+    display: none;
+}
+
+.form .signup-form {
+    visibility: visible;
+}
